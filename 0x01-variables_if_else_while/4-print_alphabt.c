@@ -9,10 +9,13 @@ int main(void)
 {
 	int i = 'a';
 
-	while (i <=  'z' && i != 'e' && i != 'q')
+	while (i <=  'z')
 	{
-		putchar (i);
-		i++;
+		if (i != 'e' || i != 'q')
+		{
+			putchar (i);
+			i++;
+		}
 	}
 	putchar ('\n');
 	return (0);
