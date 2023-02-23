@@ -1,1 +1,1 @@
-Thiss file contains informations about these projects
+This file contains informations about these projects
